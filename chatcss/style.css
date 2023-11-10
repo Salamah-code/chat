@@ -1,0 +1,141 @@
+.l-amis {
+    min-height: 600px;
+}
+
+.l-amis,
+.l-users,
+.p-messages {
+    background-color: rgba(1, 1, 136, 0.185);
+}
+
+.p-messages {
+    min-height: 500px;
+}
+
+.l-users {
+    min-height: 600px;
+}
+
+.user-friend {
+    height: 100px;
+}
+
+
+/* .field {
+    background-color: rgba(1, 1, 136, 0.185);
+    border: none;
+    outline: none;
+} */
+
+.profil {
+    height: 70px;
+    width: 70px;
+}
+
+.sep-users {
+    color: rgb(245, 238, 238);
+    height: 5px;
+}
+
+.contact {
+    height: 80px;
+}
+
+.conversation-field {
+    height: 300px
+}
+
+.user-nofriend {
+    height: 350px;
+}
+
+.user-askfriend {
+    height: 350px;
+}
+
+.user-friendList {
+    height: 350px;
+}
+
+.user-friendSelfAsk {
+    height: 350px;
+}
+
+.user-friend:hover {
+    background-color: rgba(50, 115, 220, 0.3);
+    /* background-color: #05ffb0; */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.msgRecu {
+    float: right;
+    /* width: 50%; */
+    /* display: block; */
+    border: 1px solid white;
+    background-color: crimson;
+    margin: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.msgENv {
+    border: 1px solid white;
+    /* width: 50%; */
+    /* display: block; */
+    background-color: rgb(94, 116, 238);
+    margin: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.msgFileENv {
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.msgFileRecu {
+    float: right;
+    /* width: 50%; */
+    /* display: block; */
+    border: 1px solid white;
+    /* background-color: crimson; */
+    margin: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.msgFileENvdoc {
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.msgFileRecudoc {
+    float: right;
+    /* width: 50%; */
+    /* display: block; */
+    border: 1px solid white;
+    /* background-color: crimson; */
+    margin: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
